@@ -24,7 +24,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 'ls'  
+> > `ls -a`  
+> > `ls -l`  
+> > `ls -lh`  
+> > `ls -lah`  
+> > `ls -t`  
+> > `ls -Glp` 
 
 ---
 
