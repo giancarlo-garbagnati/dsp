@@ -68,6 +68,6 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> Vim, because I have some experience with both vim and emacs, and this [image](http://mrozekma.com/editor-learning-curve.png) isn't far off from the truth from my experience. http://mrozekma.com/editor-learning-curve.png
+>> Vim, because I have some experience with both vim and emacs, and this [image](http://mrozekma.com/editor-learning-curve.png) isn't far off from the truth from my experience.
 
  
