@@ -60,7 +60,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Sublime, because the above states it's the most popular, so I'm hoping there should be more online documentation.
 
 --
 
@@ -68,6 +68,6 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Vim, because I have some experience with both vim and emacs, and this [image](http://mrozekma.com/editor-learning-curve.png) isn't far off from the truth from my experience. http://mrozekma.com/editor-learning-curve.png
 
  
