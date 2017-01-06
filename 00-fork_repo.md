@@ -55,6 +55,6 @@ Here's your first chance to practice this:
 
 What is your favorite [emoji](http://www.emoji-cheat-sheet.com/)?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> :floppy_disk: because floppy disks have not been (for some time now) a common household item, yet it's the icon used most frequently for saving a digital file  
 
 
