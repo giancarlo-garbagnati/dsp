@@ -60,7 +60,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> Sublime, because the above states it's the most popular, so I'm hoping there should be more online documentation.
+>> Sublime, because the above states it's the most popular, so I'm hoping there should be more online documentation and assistance should I need it.
 
 --
 
