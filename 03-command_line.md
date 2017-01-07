@@ -9,15 +9,15 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > `ls -lG`                                              - colorful list in column format 
-> > `cd`                                                  - change directory
-> > `..`                                                  - one directory up (towards root)
-> > `/`                                                   - root directory (not '.')
-> > `pwd`                                                 - print working directory (in case I'm lost)
-> > `mkdir`                                               - make a directory
-> > `touch`                                               - makes a new file in the current directory
-> > `cp fileorfilestocopy.txt whereandwhattocopyto.txt`   - copy a file
-> > `*`                                                   - everything (in a dir), like when copying, can also use as a wildcard
+> > `ls -lG`                                              - colorful list in column format  
+> > `cd`                                                  - change directory  
+> > `..`                                                  - one directory up (towards root)  
+> > `/`                                                   - root directory (not '.')  
+> > `pwd`                                                 - print working directory (in case I'm lost)  
+> > `mkdir`                                               - make a directory  
+> > `touch`                                               - makes a new file in the current directory  
+> > `cp fileorfilestocopy.txt whereandwhattocopyto.txt`   - copy a file  
+> > `*`                                                   - everything (in a dir), like when copying, can also use as a wildcard  
 > > `mv`                                                  - move a file to another destination, can move multiple files, and/or rename files in the moving process
 > > `rm`                                                  - delete (remove) a file
 > > `rm -r`                                               - delete a directory (and it's contents) ('r' for recursive)
