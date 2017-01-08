@@ -81,7 +81,9 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > Helps commands such as "grep" and "find" to divide large lists of arguments into a smaller list received from standard input. Example:  
+> > `ls -1 *.txt` - would normally list each .txt file as it's own line
+> > `ls -1 *.txt | xargs` - would convert the list generated from the command above into one line
 
  
 
