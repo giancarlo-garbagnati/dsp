@@ -68,7 +68,12 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls -d` - displays only directories  
+> > `ls -g` - same as '-l' but without the owner name (more compact than '-l')  
+> > `ls -m` - displays the names as a comma-seperated list  
+> > `ls -p` - displays directories with a "/"  
+> > `ls -r` - displays files in reverse order
+> > `ls -R` - displays subdirectories as well  
 
 ---
 
