@@ -52,7 +52,6 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 f = [32, 57, 98, 212]
 c = list(map(lambda x: (x-32)*(5/9), f))
 # [0.0, 13.88888888888889, 36.66666666666667, 100.0]
-
 # list comprehension - map
 f = [32, 57, 98, 212]
 c = [ ((x-32)*(5/9)) for x in f ]
