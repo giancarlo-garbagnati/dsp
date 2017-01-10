@@ -28,7 +28,14 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> ‘lambda’ is an anonymous fxn that is created at runtime. It doesn’t include a return statement, but an expression that which is returned. You can use a lambda definition anywhere a fxn is expected (such as in the parameters of sorted() key parameter, or in filter(), map(), reduce(), etc). Example:
+
+```python
+# should returned a resorted list of list a, but with first the odd numbers sorted, then the even numbers sorted
+a = [1, 2, 3, 4, 5]
+sorted(a, key = lambda f: f%2==0)
+# [1, 3, 5, 2, 4]
+```
 
 ---
 
