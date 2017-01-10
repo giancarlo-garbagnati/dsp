@@ -43,7 +43,51 @@ sorted(a, key = lambda f: f%2==0)
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List comprehensions are another way in python to implement notation for sets used in mathematics. They can be used as a substitute for lambda functions, as well as other functions like map() and filter(). They are similar to the apply() fxns (such as apply(), lapply(), sapply()) in R. Capability-wise and performance-wise they are very similar especially when using a lambda function with map() or filter().
+
+>> map() equivalent example:
+```python
+## Fahrenheit to celsius
+# map() + lambda fxn
+f = [32, 57, 98, 212]
+c = list(map(lambda x: (x-32)*(5/9), f))
+# [0.0, 13.88888888888889, 36.66666666666667, 100.0]
+
+# list comprehension - map
+f = [32, 57, 98, 212]
+c = [ ((x-32)*(5/9)) for x in f ]
+# [0.0, 13.88888888888889, 36.66666666666667, 100.0]
+```
+
+>> filter equivalent example:
+```python
+## Filtering out even numbers
+# filter() + lambda fxn
+a = list(range(1,11))
+b = list(filter(lambda x: x%2==1, a))
+#[ 1, 3, 5, 7, 9]
+# list comprehension - filter
+a = list(range(1,11))
+b = [ x for x in a if x%2==1 ]
+# [1, 3, 5, 7, 9]
+```
+
+>> set comprehension example:
+```python
+a = set(range(5))
+# {0, 1, 2, 3, 4}
+# squaring all numbers in this set
+b = {x**2 for x in a}
+# {0, 1, 4, 9, 16}
+```
+
+>> dictionary comprehension example:
+```python
+# create a dictionary from a string of lowercase letters where the key value is the uppercase character and maps to its lowercase chars
+a = "abcdefghijklmnopqrstuvwxyz"
+d = {x.upper(): x for x in a}
+# 'C': 'c', 'S': 's', 'D': 'd', 'G': 'g', 'X': 'x', 'H': 'h', 'Z': 'z', 'T': 't', 'R': 'r', 'Y': 'y', 'O': 'o', 'A': 'a', 'P': 'p', 'I': 'i', 'K': 'k', 'B': 'b', 'U': 'u', 'W': 'w', 'F': 'f', 'E': 'e', 'V': 'v', 'Q': 'q', 'N': 'n', 'J': 'j', 'L': 'l', 'M': 'm'}
+```
 
 ---
 
