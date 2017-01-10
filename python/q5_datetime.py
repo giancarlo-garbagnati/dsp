@@ -23,3 +23,9 @@ datetime.strptime(date_start, format_b) - datetime.strptime(date_stop, format_b)
 ####c)  
 date_start = '15-Jan-1994'  
 date_stop = '14-Jul-2015'  
+
+format_c = "%d-%b-%Y"
+
+datetime.strptime(date_start, format_c) - datetime.strptime(date_stop, format_c)
+# datetime.timedelta(-7850)
+
