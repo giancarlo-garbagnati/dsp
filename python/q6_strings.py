@@ -18,8 +18,17 @@ def donuts(count):
     >>> donuts(99)
     'Number of donuts: many'
     """
-    raise NotImplementedError
+    if count > 9:
+        return 'Number of donuts: many'
+    else:
+        return 'Number of donuts: ' + str(count)
 
+    #raise NotImplementedError
+
+#print(donuts(4))
+#print(donuts(9))
+#print(donuts(10))
+#print(donuts(99))
 
 def both_ends(s):
     """
@@ -37,7 +46,17 @@ def both_ends(s):
     >>> both_ends('xyz')
     'xyyz'
     """
-    raise NotImplementedError
+    if len(s) < 3:
+        return ""
+    else:
+        return (s[:2] + s[-2:])
+
+    #raise NotImplementedError
+
+#print(both_ends('spring'))
+#print(both_ends('Hello'))
+#print(both_ends('a'))
+#print(both_ends('xyz'))
 
 
 def fix_start(s):
@@ -56,7 +75,26 @@ def fix_start(s):
     >>> fix_start('donut')
     'donut'
     """
-    raise NotImplementedError
+
+    first = s[0]
+    
+    # convert into a list so that I can iterate through using an index number
+    end = list(s[1:])
+    for i in range(len(end)):
+        if end[i] == first:
+            end[i] = '*'
+
+    # is there a better way to convert a list of chars to a string?
+    combined = first + ''.join(end)
+
+    return combined
+
+    #raise NotImplementedError
+
+#print(fix_start('babble'))
+#print(fix_start('aardvark'))
+#print(fix_start('google'))
+#print(fix_start('donut'))
 
 
 def mix_up(a, b):
@@ -74,7 +112,22 @@ def mix_up(a, b):
     >>> mix_up('pezzy', 'firm')
     'fizzy perm'
     """
-    raise NotImplementedError
+
+    a_start = a[:2]
+    a_end = a[2:]
+    b_start = b[:2]
+    b_end = b[2:]
+
+    a_all = b_start + a_end
+    b_all = a_start + b_end
+
+    return (a_all + ' ' + b_all)
+    #raise NotImplementedError
+
+#print(mix_up('mix', 'pod'))
+#print(mix_up('dog', 'dinner'))
+#print(mix_up('gnash', 'sport'))
+#print(mix_up('pezzy', 'firm'))
 
 
 def verbing(s):
@@ -91,8 +144,20 @@ def verbing(s):
     >>> verbing('do')
     'do'
     """
-    raise NotImplementedError
 
+    if len(s) < 3:
+        return s
+    else:
+        if s[-3:] == 'ing':
+            return s + 'ly'
+        else:
+            return s + 'ing'
+
+    #raise NotImplementedError
+
+#print(verbing('hail'))
+#print(verbing('swiming'))
+#print(verbing('do'))
 
 def not_bad(s):
     """
@@ -111,7 +176,42 @@ def not_bad(s):
     >>> not_bad("It's bad yet not")
     "It's bad yet not"
     """
-    raise NotImplementedError
+
+    
+
+
+    not_s = 'not'
+    bad = 'bad'
+
+    not_index = s.find(not_s)
+
+    # if the substring 'not ' is not in s, return s
+    if not_index < 0:
+        return s
+    # also if 'not ' is present, but ' bad' is not present, also return s
+    else:
+        first_bad_index = s.find(bad, not_index)
+        if first_bad_index < 0:
+            return s
+
+    s_start = s[:not_index]
+    s_mid = 'good'
+    s_end = s[first_bad_index+3:]
+
+    return s_start + s_mid + s_end
+    #raise NotImplementedError
+
+    # other solution
+    '''
+    
+    
+
+    '''
+
+#print(not_bad('This movie is not so bad'))
+#print(not_bad('This dinner is not that bad!'))
+#print(not_bad('This tea is not hot'))
+#print(not_bad("It's bad yet not"))
 
 
 def front_back(a, b):
@@ -130,4 +230,26 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
-    raise NotImplementedError
+    import math
+
+    a_index = math.ceil(len(a)/2)
+    a_front = a[:a_index]
+    a_back = a[a_index:]
+    b_index = math.ceil(len(b)/2)
+    b_front = b[:b_index]
+    b_back = b[b_index:]
+
+    #print(a_front)
+    #print(a_back)
+    #print(b_front)
+    #print(b_back)
+
+    return a_front + b_front + a_back + b_back
+
+    #raise NotImplementedError
+
+
+
+#print(front_back('abcd', 'xy'))
+#print(front_back('abcde', 'xyz'))
+#print(front_back('Kitten', 'Donut'))
