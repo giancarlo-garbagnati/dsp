@@ -53,7 +53,7 @@ newfile = open('emails.csv', 'w')
 # traverse through emailList 
 for email in emailList:
 	# write each email to the file with a newline char
-	newfile.write(email + '\n')
+	newfile.write(email + ',\n')
 
 # not sure if this is necessary here?
 newfile.close()
