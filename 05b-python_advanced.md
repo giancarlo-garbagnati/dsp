@@ -53,6 +53,8 @@ warren@upenn.edu
 bryanma@upenn.edu
 ```
 
+>>> This data is available in this file:  [emails.csv](python/emails.csv)
+
 ---
 
 ### Part III - Dictionary
