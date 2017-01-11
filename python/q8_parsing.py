@@ -34,7 +34,7 @@ for col in range(len(header)):
 goal_diff_list = []
 for team in l:
 	goal_diff_list.append( [ team[teamname], 
-							int(team[goals])-int(team[goals_allowed]) ] )
+				int(team[goals])-int(team[goals_allowed]) ] )
 
 # now to sort by goal difference (lowest goal difference should be element 0)
 sorted_goal_diff = sorted(goal_diff_list, key = lambda x: x[-1])
