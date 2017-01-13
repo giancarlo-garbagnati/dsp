@@ -7,4 +7,4 @@
 >> Cohen's d for pregnancy length between first babies and others:  
 >> 14.325479051304347  
 
-[Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
+[q01c02e04.py](python/q01c02e04.py)
