@@ -82,7 +82,7 @@ starting place, you can use chap03ex.ipynb.
 
 # plotting both in the same graph
 width = 0.5
-thinkplot.PrePlot(2, cols=2)
+thinkplot.PrePlot()
 thinkplot.Hist(nkPMF, align='right', width = width)
 thinkplot.Hist(biasedPMF, align='left', width = width)
 thinkplot.Config(xlabel='kids/household', ylabel='probability')
