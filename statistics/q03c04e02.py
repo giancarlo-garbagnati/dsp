@@ -16,7 +16,7 @@ import thinkplot
 
 # setting a seed
 # comment this out if you want different results
-random.seed(100)
+#random.seed(100)
 
 random1000 = []
 
