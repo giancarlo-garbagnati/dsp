@@ -7,4 +7,4 @@
 >> Cohen's d for pregnancy length between first babies and others:  
 >> 14.325479051304347  
 
-[q01c02e04.py](https://github.com/giancarlo-garbagnati/dsp/blob/master/python/q01c02e04.py)
+Link to work: [q01c02e04.py](https://github.com/giancarlo-garbagnati/dsp/blob/master/statistics/q01c02e04.py)
