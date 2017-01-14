@@ -78,7 +78,7 @@ def cohenD(g1, g2):
 	return meanDiff / SD_pooled
 
 
-# makes three dataframes with data for live births,
+# makes three dataframes with data for live births, 
 #  first babies, and all others
 live, firstD, others = first.MakeFrames()
 
