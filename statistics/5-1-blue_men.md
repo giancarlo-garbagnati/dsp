@@ -2,4 +2,4 @@
 
 >> % of the U.S. male population in this range = 34.2746837631%
 
-
+Link to work: [q04c05e01.py](https://github.com/giancarlo-garbagnati/dsp/blob/master/statistics/q04c05e01.py)
