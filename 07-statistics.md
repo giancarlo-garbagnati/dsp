@@ -88,7 +88,7 @@ Work found on: [q05.py](https://github.com/giancarlo-garbagnati/dsp/blob/master/
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Bayesian statistics sees probability as the chance of an event occuring, whereas a frequentist imagines a population and imagines the frequency of that event occuring in this population.
 
 ---
 
