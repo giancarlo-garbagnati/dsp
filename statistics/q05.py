@@ -42,9 +42,6 @@ print("chance identical twin, given person is a twin = " + str(iden_given_twin))
 print("% chance identical twin, given person is a twin = " + str(iden_given_twin*100))
 
 
-
-
-
-
+# chance identical twin, given person is a twin = 0.29411764705882354
 
 
